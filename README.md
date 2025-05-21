@@ -1,2 +1,6 @@
 # Website_Project
 a website using HTML, CSS, JS, node js, ...
+public
+public/css
+public/js
+
