@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fa">
+  <head>
+    <meta charset="UTF-8" />
+    <title>نمایش فاکتور</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="invoice-container">
+      <h2>فاکتور فروش کالا</h2>
+
+      <div class="header">
+        <div><strong>طرف حساب:</strong> <span id="customerName"></span></div>
+        <div>
+          شماره: <span id="invoiceNumber"></span><br />
+          تاریخ: <span id="invoiceDate"></span>
+        </div>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>کد کالا</th>
+            <th>نام کالا</th>
+            <th>تعداد کل</th>
+            <th>واحد</th>
+            <th>نرخ</th>
+            <th>مبلغ</th>
+            <th>قیمت کل</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td id="productCode"></td>
+            <td id="productName"></td>
+            <td id="quantity"></td>
+            <td id="unit"></td>
+            <td id="rate"></td>
+            <td id="amount"></td>
+            <td id="totalPrice"></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="footerInvoice">
+        <div>تحویل گیرنده: <span id="receiver"></span></div>
+        <div>تحویل دهنده: <span id="deliverer"></span></div>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
